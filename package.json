@@ -1,0 +1,25 @@
+{
+  "author": "Maciej Małecki <maciej.malecki@notimplemented.org>",
+  "name": "twss-as-a-service",
+  "description": "\"that's what she said\" classifier as a service",
+  "version": "0.0.0",
+  "homepage": "twss.nodejitsu.com",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/mmalecki/twss-as-a-service.git"
+  },
+  "main": "./lib/twss-server",
+  "engines": {
+    "node": ">= 0.6"
+  },
+  "dependencies": {
+    "twss": "0.1.x",
+    "union": "0.1.x",
+    "director": "git://github.com/flatiron/director.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "./bin/twss"
+  },
+  "subdomain": "twss"
+}
