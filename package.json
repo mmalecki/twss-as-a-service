@@ -14,8 +14,8 @@
   },
   "dependencies": {
     "twss": "0.1.x",
-    "union": "0.1.x",
-    "director": "git://github.com/flatiron/director.git"
+    "union": "0.3.x",
+    "director": "1.1.x"
   },
   "devDependencies": {},
   "scripts": {
